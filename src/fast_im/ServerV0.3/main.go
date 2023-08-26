@@ -1,6 +1,6 @@
 package main
 
-// 基础服务构建
+// 用户消息广播
 func main() {
 	server := NewServer("127.0.0.1", 8888)
 	server.Start()
